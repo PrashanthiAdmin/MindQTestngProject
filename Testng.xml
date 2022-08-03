@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testing_Suite">
+
+	
+	<test name="First Testing">
+		<classes>
+					<class name="MindQ.SeleniumTestngFrameworkJune.FirstLaunch"></class>
+		
+					
+			
+			</classes>
+			
+		
+	</test>
+	
+	
+	<test name="Second Testing">
+
+
+		<classes>
+			
+			<class name="MindQ.SeleniumTestngFrameworkJune.SecondLaunch">
+			</class>
+			
+			
+		</classes>
+	</test>
+	
+	
+</suite>

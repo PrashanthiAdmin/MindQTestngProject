@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Smoke_Test_inChrome(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="MindQ.SeleniumTestngFrameworkJune.LoginTestCaseFromExcel">
+        <methods>
+          <include name="loginUsingInvalidCredentialsAndWriteResult"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- MindQ.SeleniumTestngFrameworkJune.LoginTestCaseFromExcel -->
+    </classes>
+  </test> <!-- Smoke_Test_inChrome(failed) -->
+</suite> <!-- Failed suite [Testing_Suite] -->

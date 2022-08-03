@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testing_Suite" parallel = "tests" thread-count="2">
+
+<test name="ChromeTesting">
+<parameter name = "Browser" value = "Chrome"/>
+<classes>
+
+<class name="MindQ.SeleniumTestngFrameworkJune.LoginTestCases"></class>
+
+
+
+</classes>
+
+</test>
+
+
+<test name="EdgeTesting">
+<parameter name = "Browser" value = "Edge"/>
+<classes>
+
+<class name="MindQ.SeleniumTestngFrameworkJune.LoginTestCases"></class>
+
+
+
+</classes>
+
+</test>
+
+
+
+
+
+
+
+
+
+
+</suite>

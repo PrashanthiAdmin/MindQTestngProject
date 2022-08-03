@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testing_Suite">
+
+<test name="Smoke_Test_inChrome">
+<parameter name = "Emailid" value = "prashanthi@gmail.com"/>
+<parameter name = "Password" value = "test123"/>
+<classes>
+
+<class name="MindQ.SeleniumTestngFrameworkJune.LoginTestCases"></class>
+
+
+
+</classes>
+
+</test>
+
+
+<test name="Smoke_Test_inChrome">
+<parameter name = "Emailid" value = "prashanthi@gmail.com"/>
+<parameter name = "Password" value = "test123"/>
+<classes>
+
+<class name="MindQ.SeleniumTestngFrameworkJune.LoginTestCases"></class>
+
+
+
+</classes>
+
+</test>
+
+
+
+</suite>

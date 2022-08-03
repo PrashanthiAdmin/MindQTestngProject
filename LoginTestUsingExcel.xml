@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testing_Suite">
+
+
+<test name="Smoke_Test_inChrome">
+<parameter name = "Browser" value = "Chrome"/>
+<classes>
+
+<class name="MindQ.SeleniumTestngFrameworkJune.LoginTestCaseFromExcel"></class>
+
+
+
+</classes>
+
+</test>
+
+
+
+
+
+
+</suite>
