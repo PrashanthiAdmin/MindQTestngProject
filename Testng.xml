@@ -14,17 +14,7 @@
 	</test>
 	
 	
-	<test name="Second Testing">
-
-
-		<classes>
-			
-			<class name="MindQ.SeleniumTestngFrameworkJune.SecondLaunch">
-			</class>
-			
-			
-		</classes>
-	</test>
+	
 	
 	
 </suite>

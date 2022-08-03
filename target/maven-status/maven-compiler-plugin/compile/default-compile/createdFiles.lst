@@ -1,0 +1,8 @@
+MindQ\SeleniumTestngFrameworkJune\base\LoginPage.class
+MindQ\SeleniumTestngFrameworkJune\pageobjects\SigninPage.class
+MindQ\SeleniumTestngFrameworkJune\App.class
+MindQ\SeleniumTestngFrameworkJune\pageobjects\SignUpPage.class
+MindQ\SeleniumTestngFrameworkJune\pageobjects\SigninPageUsingPageFactory.class
+MindQ\SeleniumTestngFrameworkJune\base\BasePage.class
+MindQ\SeleniumTestngFrameworkJune\pageobjects\SignUpPageUsingPageFactory.class
+MindQ\SeleniumTestngFrameworkJune\Utils\ExcelUtils.class

@@ -26,7 +26,7 @@ public class LoginTestCases extends SigninPage {
 		clickSigninButton();
 
 		boolean actualResult = errorMessagePresence();
-		boolean expectedResult = false;
+		boolean expectedResult = true;
 		
 		
 		

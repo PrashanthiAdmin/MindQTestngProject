@@ -2,8 +2,10 @@
 <suite name="Testing_Suite">
 
 <test name="Smoke_Test_inChrome">
+<parameter name = "Browser" value = "Chrome"/>
 <parameter name = "Emailid" value = "prashanthi@gmail.com"/>
 <parameter name = "Password" value = "test123"/>
+
 <classes>
 
 <class name="MindQ.SeleniumTestngFrameworkJune.LoginTestCases"></class>
@@ -14,19 +16,6 @@
 
 </test>
 
-
-<test name="Smoke_Test_inChrome">
-<parameter name = "Emailid" value = "prashanthi@gmail.com"/>
-<parameter name = "Password" value = "test123"/>
-<classes>
-
-<class name="MindQ.SeleniumTestngFrameworkJune.LoginTestCases"></class>
-
-
-
-</classes>
-
-</test>
 
 
 
